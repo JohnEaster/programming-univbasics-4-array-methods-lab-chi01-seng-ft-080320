@@ -1,5 +1,5 @@
 def using_include(array = ["Mom", "Dad", "John", "Seth"], element = "John")
-  array.include?("John")
+  array.include?(element)
 end
 
 def using_sort(array)
