@@ -18,6 +18,6 @@ def using_last(array = ["Mom", "Dad", "John", "Seth"])
   array.last
 end
 
-def using_size(array)
-
+def using_size(array = ["Mom", "Dad", "John", "Seth"])
+  array.size
 end
